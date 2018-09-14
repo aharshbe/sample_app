@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+      <a id="myHeader" href="/ccsf_rails/index">Home</a>
+      <a id="myHeader" href="/ccsf_rails/links">Links</a>
+      <a id="myHeader" href="/ccsf_rails/about">About</a>
+      <a id="myHeader" href="/ccsf_rails/assignments">Assignments</a>
+      <hr></hr>
+    
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
@@ -9,30 +15,36 @@
   </head>
 
   <body>
+    <style>
+      p {
+          font-family: "lumos";
+      }
+      h1 {
+          color: rgb(207,181,59);
+      }
+      h2 {
+          font-family: "lumos";
+          text-decoration: underline;
+      }
+      #link {
+        margin-right: 10px;
+        text-decoration: none;
+      }
+      #myHeader {
+        color: black;
+        font-family: "lumos";
+        font-size: 30px;
+        margin-right: 80px;
+        text-decoration: none;
+      }
+      img {
+        padding:2px;
+        border:1px solid #DEC421;
+        background-color:#ff0;
+      }
+    </style>
     <%= yield %>
   </body>
   
-  <!--Footer for CCSF-->
-    <footer>
-    <p>-------------------</p>
-    <a href="/ccsf_rails/index">Home</a>
-    <b>--</b>
-    <a href="/ccsf_rails/links">Links</a>
-    <b>--</b>
-    <a href="/ccsf_rails/about">About</a>
-    <b>--</b>
-    <a href="/ccsf_rails/assignments">Assignments</a>
-  </footer>
   
-  <!--Footer for Rails  -->
-  <!--<footer>-->
-  <!--  <p>-------------------</p>-->
-  <!--  <a href="/static_pages/home">Home</a>-->
-  <!--  <b>--</b>-->
-  <!--  <a href="/static_pages/help">Help</a>-->
-  <!--  <b>--</b>-->
-  <!--  <a href="/static_pages/about">About</a>-->
-  <!--  <b>--</b>-->
-  <!--  <a href="/static_pages/contact">Contact</a>-->
-  <!--</footer>-->
 </html>
