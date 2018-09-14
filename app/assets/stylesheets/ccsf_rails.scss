@@ -1,0 +1,46 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Variables
+@font-face {
+    font-family: 'Harry P';
+    src: url('/sample_app/app/assets/fonts/ParryHotter.ttf');
+}
+
+$background-color: rgba(255,255,255,0.5); 
+$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$hp-font: 'Harry P';
+$serif: Baskerville, Georgia, "Times New Roman", serif; 
+$color: #222222; 
+$link-color: #0000aa; 
+
+
+// Using variables and nesting of rules makes writing CSS simpler.  
+html {background-color: #eee;} 
+body { 
+  width: 800px;
+  margin:50px auto;
+  border:solid 2px gray;
+  background-color: $background-color;
+  padding: 50px;
+  font-family: $hp-font;
+  color:$color} 
+.welcome { 
+  font-family:hp-font; 
+  width:41em; 
+  margin: 50px auto; 
+  color: $color; 
+  h1, h2,h3,h4,h5 { 
+      font-family: $hp-font; 
+  }   
+  p { 
+    color: $color; 
+    font-family: $hp-font; 
+    li { 
+      font-family: $sans-serif; 
+      a { 
+        color: darken($link-color, 20%); 
+      }   
+    }   
+  }   
+}
