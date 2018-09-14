@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "hp";
+  src: url(/assets/fonts/hp-1c459bc4a1308f4ce6f248534a4e436f46c9447dd23bd708b396bd8546569b82.ttf);
+}
+@font-face {
+  font-family: "hp_cool";
+  src: url(/assets/fonts/cool_hp-168a253a12458bfe9e518c57cd37e2969cfa125cd104735b12d2a75876ab2fb4.ttf);
+}
+@font-face {
+  font-family: "lumos";
+  src: url(/assets/fonts/lumos-0c987038ff3df388f4eaa38544f841c0efa414d89ecd162d6b25cdede04e92ab.otf);
+}
+/* line 34, /home/ec2-user/environment/sample_app/app/assets/stylesheets/ccsf_rails.scss */
+html {
+  background-color: #eee;
+  background-image: url("https://static.wixstatic.com/media/39eadc_1ed895f8cf8549a5ad342c3bd962c26b~mv2.gif");
+}
+
+/* line 39, /home/ec2-user/environment/sample_app/app/assets/stylesheets/ccsf_rails.scss */
+body {
+  width: 800px;
+  margin: 50px auto;
+  border: solid 2px gray;
+  background-color: #fefcf0;
+  padding: 50px;
+  font-family: "hp";
+}
+
+/* line 47, /home/ec2-user/environment/sample_app/app/assets/stylesheets/ccsf_rails.scss */
+.welcome {
+  width: 41em;
+  margin: 50px auto;
+  color: #222222;
+}
+/* line 51, /home/ec2-user/environment/sample_app/app/assets/stylesheets/ccsf_rails.scss */
+.welcome p {
+  color: #DEC421;
+}
+/* line 54, /home/ec2-user/environment/sample_app/app/assets/stylesheets/ccsf_rails.scss */
+.welcome p li a {
+  color: #000044;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */

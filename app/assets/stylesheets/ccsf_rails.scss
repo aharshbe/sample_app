@@ -4,17 +4,20 @@
 // Variables
 @font-face {
   font-family: "hp";
-  src: url(/assets/fonts/hp.ttf) format("truetype");
+  // src: url(/assets/fonts/hp.ttf) format("truetype");
+  src:font-url('fonts/hp.ttf');
 }
 
 @font-face {
   font-family: "hp_cool";
-  src: url(assets/fonts/cool_hp.ttf) format("truetype");
+  // src: url(assets/fonts/cool_hp.ttf) format("truetype");
+  src:font-url('fonts/cool_hp.ttf');
 }
 
 @font-face {
   font-family: "lumos";
-  src: url(/assets/fonts/lumos.otf) format("truetype");
+  // src: url(/assets/fonts/lumos.otf) format("truetype");
+  src:font-url('fonts/lumos.otf');
 }
 
 $background-color: #fefcf0; 
